@@ -1,6 +1,11 @@
 import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+import pandas as pd
+ 
+# Create a sample dataframe
+data = pd.DataFrame({
+  'Year': [2018, 2019, 2020, 2021],
+  'Sales': [350, 480, 550, 680]
+})
+ 
+# Create a line chart
+st.line_chart(data)
