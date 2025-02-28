@@ -4,7 +4,7 @@ import numpy as np
 
 st.write("# Simple StreamLit App: Graph Sales")
 
-chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["Americas NetIncome", "Europe Net Income", "Asia Net Income"])
 
 st.bar_chart(chart_data)
 
