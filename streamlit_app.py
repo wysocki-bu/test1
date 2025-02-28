@@ -6,7 +6,7 @@ st.write("# Simple StreamLit App: Graph Sales")
 
 # Create a sample dataframe
 data = pd.DataFrame({
-  'Year': [2018, 2019, 2020, 2021],
+#  'Year': [2018, 2019, 2020, 2021],
   'Sales': [350, 480, 550, 680]
 })
  
