@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
- 
+
+
+st.write("# Simple StreamLit App: Graph Sales")
+
 # Create a sample dataframe
 data = pd.DataFrame({
   'Year': [2018, 2019, 2020, 2021],
